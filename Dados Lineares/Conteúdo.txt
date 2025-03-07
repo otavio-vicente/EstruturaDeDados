@@ -1,0 +1,37 @@
+1. Vetores (Arrays)
+Para que serve?
+Um vetor armazena múltiplos elementos em sequência e permite acesso rápido a qualquer posição pelo índice.
+Quando usar?
+Quando você precisa armazenar uma lista fixa de elementos.
+Quando quer buscar ou modificar elementos de forma direta.
+Exemplo: Lista de produtos em um carrinho de compras.
+
+2. Lista Simplesmente Encadeada
+Para que serve?
+Armazena elementos de forma dinâmica, onde cada nó aponta para o próximo, ocupando apenas o espaço necessário na memória.
+Quando usar?
+Quando precisa inserir ou remover elementos frequentemente sem precisar deslocar outros (diferente de um vetor).
+Exemplo: Implementação de um histórico de navegação onde os elementos são adicionados no início.
+
+3. Lista Duplamente Encadeada
+Para que serve?
+Cada nó aponta tanto para o próximo quanto para o anterior, permitindo navegação nos dois sentidos.
+Quando usar?
+Quando precisar acessar os elementos em ambas as direções.
+Quando precisar remover elementos com mais eficiência do final.
+Exemplo: Editor de texto com funcionalidade de "desfazer" e "refazer".
+
+4. Pilha (Stack)
+Para que serve?
+Funciona pelo princípio LIFO (Last In, First Out – O último a entrar é o primeiro a sair).
+Quando usar?
+Quando precisar armazenar elementos em ordem inversa de entrada.
+Quando precisa rastrear chamadas de funções recursivas.
+Exemplo: Sistema de "desfazer" em um editor de texto.
+
+5. Fila (Queue)
+Para que serve?
+Segue a regra FIFO (First In, First Out – O primeiro a entrar é o primeiro a sair).
+Quando usar?
+Quando precisa processar elementos na ordem em que chegam.
+Exemplo: Fila de atendimento em um banco, onde o primeiro cliente que chega é o primeiro a ser atendido.
