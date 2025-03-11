@@ -46,7 +46,7 @@ function removerDaListaSimples() {
 // Testes
 inserirInicioListaSimples(10);
 inserirFimListaSimples(20);
-removerDaListaSimples();
+removerDaListaSimples(10);
 
 // criarNo(valor): Cria um nó com um valor e ponteiro proximo nulo.
 // inserirInicioListaSimples(valor): Insere um nó no início da lista.
