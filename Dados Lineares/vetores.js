@@ -1,3 +1,61 @@
+// let listaSimples1 = null; // Início da lista
+
+// function adicionarSimples(valor) {
+//     let novoNo = { data: valor, next: listaSimples1 };
+//     listaSimples1 = novoNo;
+// }
+
+
+
+// function exibirSimples() {
+//     let atual = listaSimples1;
+//     let resultado = "";
+//     while (atual) {
+//         resultado += atual.data + " -> ";
+//         atual = atual.next;
+//     }
+//     console.log(resultado + "null");
+// }
+
+// // Teste no console
+// adicionarSimples(3);
+// adicionarSimples(2);
+// adicionarSimples(1);
+// exibirSimples(); // Saída: 1 -> 2 -> 3 -> null
+
+
+// console.log("=======================");
+
+
+// let listaDuplaTeste = null; // Início da lista
+// let ultimo = null; // Último nó
+
+// function adicionarDupla(valor) {
+//     let novoNo = { data: valor, next: listaDuplaTeste, prev: null };
+//     if (listaDuplaTeste) listaDuplaTeste.prev = novoNo;
+//     listaDuplaTeste = novoNo;
+//     if (!ultimo) ultimo = novoNo;
+// }
+
+// function exibirDupla() {
+//     let atual = listaDuplaTeste;
+//     let resultado = "";
+//     while (atual) {
+//         resultado += atual.data + " <-> ";
+//         atual = atual.next;
+//     }
+//     console.log(resultado + "null");
+// }
+
+// // Teste no console
+// adicionarDupla(3);
+// adicionarDupla(2);
+// adicionarDupla(1);
+// exibirDupla(); // Saída: 1 <-> 2 <-> 3 <-> null
+
+// console.log("===========================");
+
+
 // 1. Vetores
 let vetor = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 function buscarNoVetor(numero) {
@@ -42,11 +100,14 @@ function inserirFimListaSimples(valor) {
 function removerDaListaSimples() {
     listaSimples = listaSimples.proximo;
     console.log("Lista após remoção:", listaSimples);
-}
+} 
+
 // Testes
 inserirInicioListaSimples(10);
+inserirInicioListaSimples(15);
+inserirInicioListaSimples(30);
 inserirFimListaSimples(20);
-removerDaListaSimples(10);
+removerDaListaSimples(30);
 
 // criarNo(valor): Cria um nó com um valor e ponteiro proximo nulo.
 // inserirInicioListaSimples(valor): Insere um nó no início da lista.
